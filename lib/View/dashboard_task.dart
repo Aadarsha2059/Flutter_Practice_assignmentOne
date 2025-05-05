@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pallindrome.dart'; // Make sure this matches your file path
+import 'pallindrome_num.dart'; // Make sure this matches your file path
 import 'simple_interest.dart'; // Import the Simpleinterest screen
 import 'area_circle.dart'; // Import the CircleArea screen (renamed)
 
