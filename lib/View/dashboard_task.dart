@@ -1,3 +1,4 @@
+import 'package:first_app/View/first_view.dart';
 import 'package:flutter/material.dart';
 import 'pallindrome_num.dart'; // Make sure this matches your file path
 import 'simple_interest.dart'; // Import the Simpleinterest screen
@@ -55,6 +56,19 @@ class Dashboard extends StatelessWidget {
                   );
                 },
                 child: Text("Circle Area Calculator"),
+              ),
+            ),
+             SizedBox(height: 20),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => FirstView()),
+                  );
+                },
+                child: Text("Addition"),
               ),
             ),
           ],
