@@ -1,5 +1,6 @@
 // Material app
-import 'package:first_app/View/dashboard_task.dart';
+import 'package:first_app/view/dashboard_task.dart';
+import 'package:first_app/view/ui_task.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -7,6 +8,6 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Dashboard());
+    return MaterialApp(home: UiTask());
   }
 }
